@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>IRON MAN 3D UNIVERSE</title>
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+</head>
+
+<body>
+
+<!-- Loading Screen -->
+
+<div id="loader">
+
+<h1>J.A.R.V.I.S Loading...</h1>
+
+</div>
+<div class="center">
+<audio id="ironVoice">
+<source src="WhatsApp Audio 2026-07-08 at 4.17.25 PM.mp4" type="audio/mp4"></audio>
+<img src="image/frame_0038.jpg" id="ironman" class="herolmg" alt="ironman">
+</div>
+
+<div class="center">
+<img src="image/WhatsApp Image 2026-07-08 at 4.49.08 PM.jpeg" style="width: 100%;height: 100%; object-fit: cover;" id="ironman1" class="herolmg"  alt="ironman1">
+</div>
+
+
+<!-- Mouse Light -->
+
+<div id="mouseLight"></div>
+
+<!-- Space Background -->
+
+<div id="particles"></div>
+
+<!-- Header -->
+
+<header>
+
+<div class="logo">
+
+<h1>IRON MAN</h1>
+
+</div>
+
+
+<nav>
+
+<a href="home.html">Home</a>
+
+<a href="movies.html">Movies</a>
+
+<a href="timeline">Timeline</a>
+
+<a href="gallery.html">Gallery</a>
+
+<a href="about">About</a>
+
+</nav>
+
+</header>
+
+<!-- Hero Section -->
+
+<section class="hero" id="home">
+
+<div class="left">
+
+<h2>I AM IRON MAN</h2>
+
+<p>
+
+Welcome to the complete Iron Man Universe.
+
+Explore movies, suits, timeline, AI assistant,
+
+3D effects and much more.
+
+</p>
+
+<button id="exploreBtn">
+
+Explore Movies
+
+</button>
+
+</div>
+
+<div class="right">
+
+<!-- Yahin Three.js model ya image dikhegi -->
+
+<div id="helmet3D"></div>
+
+</div>
+
+</section>
+
+<!-- JARVIS -->
+
+<div id="jarvis">
+
+<h2>J.A.R.V.I.S</h2>
+
+<p>System Online</p>
+
+<button id="voiceBtn">
+
+Activate Voice
+
+</button>
+
+</div>
+
+<!-- Timeline -->
+
+<section id="timeline">
+
+<h1 class="title">
+
+Movie Timeline
+
+</h1>
+
+<div class="timeline">
+
+<div class="card">
+
+<img src="image/iron man1.jpeg">
+
+<h2>Iron Man (2008)</h2>
+
+<p>
+
+Tony Stark creates the first Iron Man suit.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="image/iron man2.jpeg">
+
+<h2>Iron Man 2 (2010)</h2>
+
+<p>
+
+War Machine joins Tony against Ivan Vanko.
+
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="image/iron man3.jpeg">
+
+<h2>Iron Man 3 (2013)</h2>
+
+<p>
+
+Tony battles the Mandarin.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer>
+
+<h2>
+
+Designed By me❤️
+
+</h2>
+
+</footer>
+
+<script src="script.js"></script>
+<script type="module" src="threeScene.js"></script>
+
+</body>
+
+</html>

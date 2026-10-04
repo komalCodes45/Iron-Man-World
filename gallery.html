@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+
+<style>
+body{
+    background:#000;
+    color:white;
+    font-family:Arial;
+    margin:0;
+}
+
+h1{
+    text-align:center;
+    color:red;
+    margin:20px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+}
+
+.gallery img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.gallery img:hover{
+    transform:scale(1.05);
+}
+</style>
+
+</head>
+<body>
+
+<h1>Iron Man Gallery</h1>
+
+<div class="gallery">
+
+<img src="/home/komalbharti/index.html/image/irom.jpeg">
+<img src="/home/komalbharti/index.html/image/WhatsApp Image 2026-07-05 at 6.28.59 PM(1).jpeg">
+<img src="/home/komalbharti/index.html/image/WhatsApp Image 2026-07-05 at 6.29.00 PM.jpeg">
+<img src="/home/komalbharti/index.html/image/WhatsApp Image 2026-07-05 at 6.29.01 PM.jpeg">
+
+</div>
+
+</body>
+</html>
